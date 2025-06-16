@@ -121,7 +121,7 @@ def decrypt(C, private_key, public_key):
     M = elliptic_add(C2, S_neg, a, p)
     return M
 
-# Przykład użycia
+
 if __name__ == "__main__":
 
     public_key, private_key = generate_keys()
